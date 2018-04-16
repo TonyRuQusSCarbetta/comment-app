@@ -1,0 +1,19 @@
+/* AUTOPREFIXER */
+/* https://autoprefixer.github.io/ */
+
+* {
+/* font-family: 'Teko', sans-serif;
+font-family: 'Alegreya', serif;
+font-family: 'Averia Sans Libre', cursive; */
+font-family: 'Allerta Stencil', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
