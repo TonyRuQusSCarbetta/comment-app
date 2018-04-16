@@ -25,25 +25,29 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="bg-danger">
 
 <div class="container">
   <div class="row">
-    <div class="col-md-offest-6 mx-auto w-50">
-      <h1 class="mx-auto w-50">
+    <div class="col-md-offest-6 mx-auto w-50 bg-light m-5 pl-4 pr-4 pt-4 border border-dark rounded" >
+      <h2 class="mx-auto w-50 text-center">
         Comment App
-      </h1>
+      </h2>
 
       <div class="form-group">
-        <input id="username" class="form-control" placeholder="username">
+        <input id="username" class="form-control border border-danger" placeholder="username">
       </div>
 
       <div class="form-group">
-        <textarea id="comment" class="form-control" placeholder="comment"></textarea>
+        <textarea id="comment" class="form-control border border-danger" placeholder="comment"></textarea>
       </div>
 
       <div class="form-group">
-        <button type="button" onclick="printComment()" class="btn btn-lg btn-danger text-center">Print Comment</button>
+        <button type="button" onclick="printComment()" class="btn btn-lg btn-danger text-center border border-dark">Print Comment</button>
+      </div>
+
+      <div id="comments">
+
       </div>
 
     </div>

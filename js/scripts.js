@@ -1,21 +1,29 @@
 function printComment() {
+  //Get value from user's input
   var usernameValue = document.getElementById('username').value;
   var commentValue = document.getElementById('comment').value;
+  //Check to see if value was stored in variable
   console.log(usernameValue);
   console.log(commentValue);
-  var usernameValueText = document.innerHTML = ('User: <br>' + usernameValue);
+  //create html to be written with user's input
+  var usernameValueText = document.innerHTML = ('Username: <br>' + usernameValue);
   var commentValueText = document.innerHTML = ('Comment: <br>' + commentValue);
+  //check if html is written correctly
   console.log(usernameValueText);
   console.log(commentValueText);
+  //create new element for user's name
   var printUsername = document.createElement('p');
   printUsername.innerHTML = usernameValueText;
-  // printUsername.newClass = 'container-fluid col-md-12 bg-danger w-50 mx-auto';
-  document.body.appendChild(printUsername);
+  // add new element to the Center of the page
+  document.getElementById('comments').appendChild(printUsername);
+  //create new element for user's comment
   var printComment = document.createElement('p');
   printComment.innerHTML = commentValueText;
-  // printComment.newClass = 'container-fluid col-md-12 bg-danger w-50 mx-auto';
-  document.body.appendChild(printComment);
+  // add new element to the Center of the page
+  document.getElementById('comments').appendChild(printComment);
 }
+
+
 
 // THIS IS WORKING! KEEP IT! FOR REFERENCE
 // var newHeader = document.createElement('h3');
