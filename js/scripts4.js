@@ -17,7 +17,7 @@ function printComment() {
       //create new div to wrap each individual user/comment
       var newDiv = document.createElement('div');
       document.body.appendChild(newDiv);
-      newDiv.className = "col-md-offest-6 mx-auto max-height min-height max-width bg-light m-5 pl-4 pr-4 pt-4 border border-dark rounded";
+      newDiv.className = "col-md-offest-6 mx-auto max-height min-height max-width bg-light m-5 pl-4 pr-4 pt-4 border border-dark rounded animated fadeInDownBig";
       //create html to be written with user's input
       var usernameValueText = document.innerHTML = ('<b>Username:</b> <br>' + usernameValue);
       usernameValueText.className = 'border-bottom';
