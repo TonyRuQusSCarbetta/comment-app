@@ -39,8 +39,8 @@ function printComment() {
       var getMyForm = document.getElementById('myForm');
       getMyForm.reset();
       //create the remove button
-      var button = document.createElement('button');
-      getCommentSection.appendChild(button);
+    //   var button = document.createElement('button');
+    //   getCommentSection.appendChild(button);
     //   button.className = 'btn btn-sm btn-dark border border-rounded text-light ml-5 mt-2 mb-4 text-center';
     //   button.textContent = 'Delete';
     //   var removeComment = function removeComment () {
