@@ -17,3 +17,31 @@ html, body {
   margin: 0 auto;
   display: inline-block;
 }
+
+.overflow {
+  overflow-y: scroll;
+}
+
+
+
+
+.max-width {
+  max-width: 310px;
+}
+
+.max-height {
+  max-height: 305px;
+}
+
+.min-height {
+  min-height: 305px;
+}
+
+/* TURN THIS ON WHEN ADDING THE BUTTON */
+/* .comment-max-height {
+  max-height: 125px;
+} */
+
+.comment-max-height {
+  max-height: 185px;
+}
