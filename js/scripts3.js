@@ -15,7 +15,7 @@ function printComment() {
   // If user did not leave a field blank run this code
     else {
       var getCommentSection = document.getElementById('comments');
-
+      
       getCommentSection.className = 'border border-dark border-rounded m-2 mb-5 mt-5';
       //create html to be written with user's input
       var usernameValueText = document.innerHTML = ('<b>Username:</b> <br>' + usernameValue);
@@ -41,20 +41,27 @@ function printComment() {
       //create the remove button
       var button = document.createElement('button');
       getCommentSection.appendChild(button);
-    //   button.className = 'btn btn-sm btn-dark border border-rounded text-light ml-5 mt-2 mb-4 text-center';
-    //   button.textContent = 'Delete';
-    //   var removeComment = function removeComment () {
-    //
-    //   };
-    //   button.onclick(removeComment);
-    //
-    // }
-}
+      button.className = 'btn btn-sm btn-dark border border-rounded text-light ml-5 mt-2 mb-4 text-center';
+      button.textContent = 'Delete';
+      var removeComment = function removeComment () {
+
+      };
+      button.onclick(removeComment);
+
+
+    }
   }
   validateForm();
 
 
 }
+
+
+//create a remove button when user submits comment
+// create event listener that removes the comment & button on click
+
+
+
 
 
 // THIS IS WORKING! KEEP IT! FOR REFERENCE
